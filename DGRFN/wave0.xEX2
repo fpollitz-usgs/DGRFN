@@ -1,0 +1,10 @@
+cp earth.model-Nuttli1969 earth.model
+
+wave0 << ! > /dev/null 
+11400
+11.
+0.
+0.48
+200
+!
+

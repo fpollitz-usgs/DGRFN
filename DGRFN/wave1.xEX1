@@ -1,0 +1,76 @@
+wave1 << ! > /dev/null
+0.7
+1
+0. 0. 0.01 180. 1.00 0. 1.e-6
+1
+0. 0.003
+!
+mv wave1.outy wave1.outSHR-Q=25-10
+
+wave1 << ! > /dev/null
+0.7
+1
+0. 0. 0.01 180. 58.20 0. 1.e-6
+1
+0. 0.1694
+!
+mv wave1.outy wave1.outSHR-Q=25-20
+
+wave1 << ! > /dev/null
+0.7
+1
+0. 0. 0.01 180. 67.64 0. 1.e-6
+1
+0. 0.2767
+!
+mv wave1.outy wave1.outSHR-Q=25-30
+
+wave1 << ! > /dev/null
+0.7
+1
+0. 0. 0.01 180. 71.53 0. 1.e-6
+1
+0. 0.37897
+!
+mv wave1.outy wave1.outSHR-Q=25-40
+
+wave1 << ! > /dev/null
+0.7
+1
+0. 0. 0.01 180. 1.00 0. -1.e-6
+1.e-6 1.e-6 1.e-6 0. 0. 0.
+1
+0. 0.003
+!
+mv wave1.outz wave1.outEXPL-Q=25-10
+
+wave1 << ! > /dev/null
+0.7
+1
+0. 0. 0.01 180. 58.2 0. -1.e-6
+1.e-6 1.e-6 1.e-6 0. 0. 0.
+1
+0. 0.1694
+!
+mv wave1.outx wave1.outEXPL-Q=25-20
+
+wave1 << ! > /dev/null
+0.7
+1
+0. 0. 0.01 180. 67.64 0. -1.e-6
+1.e-6 1.e-6 1.e-6 0. 0. 0.
+1
+0. 0.2767
+!
+mv wave1.outx wave1.outEXPL-Q=25-30
+
+wave1 << ! > /dev/null
+0.7
+1
+0. 0. 0.01 180. 71.53 0. -1.e-6
+1.e-6 1.e-6 1.e-6 0. 0. 0.
+1
+0. 0.37897
+!
+mv wave1.outx wave1.outEXPL-Q=25-40
+
