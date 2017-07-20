@@ -1,0 +1,9 @@
+cp earth.modelHOMO earth.model
+
+wave0 << ! > /dev/null 
+3000
+19.
+29.
+0.07
+256
+!
